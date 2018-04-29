@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HandPose</string>
+    <string name="app_directory">//Pictures//HandPose//</string>
+    <string name="app_file_extension">.jpg</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="view_template">View Template</string>
+    <string name="view_countdown">Matching for template</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_setting">Setting</string>
+    <string name="btn_open">Open</string>
+    <string name="btn_settemplate">Set Template</string>
+    <string name="btn_compare">Compare</string>
+    <string name="setting_max_h">60</string>
+    <string name="setting_min_h">0</string>
+    <string name="setting_max_s">1.0</string>
+    <string name="setting_min_s">0.5</string>
+    <string name="setting_max_v">1.0</string>
+    <string name="setting_min_v">0.5</string>
+	<string name="setting_counttime">20</string>
+	<string name="setting_counttick">2</string>
+	<string name="setting_matchpoint">0.5</string>
+    <string name="template_width">100</string>
+    <string name="compare_width">200</string>
+    <string name="effect_none">None</string>
+ 	<string name="effect_extract">Extract by color</string>
+	<string name="effect_tint">Tint by 60 deg </string>
+	<string name="effect_gray">Gray scale</string>
+	<string name="effect_canny">Canny edge</string>
+	<string name="effect_sobel">Sobel edge(binary only)</string>
+	<string name="effect_resize">Optimize size</string>
+	<string name="effect_magnify">Magnify template</string>
+
+   	<string-array name="effect_list">
+   		<item >@string/effect_none</item>
+   		<item >@string/effect_extract</item>
+   		<item >@string/effect_tint</item>
+   		<item >@string/effect_gray</item>
+   		<item >@string/effect_canny</item>
+   		<item >@string/effect_sobel</item>
+   		<item >@string/effect_resize</item>
+   		<item >@string/effect_magnify</item>
+   	</string-array>    
+
+</resources>

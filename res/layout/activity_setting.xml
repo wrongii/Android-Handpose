@@ -1,0 +1,47 @@
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:contentDescription="@string/view_template"
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_launcher" />
+
+        <Spinner
+            android:id="@+id/selectEffect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true" 
+            android:entries="@array/effect_list" />
+
+        <Button
+            android:id="@+id/btnOpen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/selectEffect"
+            android:layout_alignParentLeft="true"
+            android:text="@string/btn_open" />
+
+        <Button
+            android:id="@+id/btnSetTemplate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/selectEffect"
+            android:layout_toRightOf="@+id/btnOpen"
+            android:text="@string/btn_settemplate" />
+
+        <Button
+            android:id="@+id/btnCompare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnSetTemplate"
+            android:layout_toRightOf="@+id/btnSetTemplate"
+            android:text="@string/btn_compare" />
+
+    </RelativeLayout>
